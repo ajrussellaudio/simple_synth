@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <corners
+        android:radius="3dp" />
+    <gradient
+        android:startColor="@color/colorBlackKeyHighlight"
+        android:centerColor="@color/colorBlackKey"
+        android:endColor="@color/colorWhiteKeyHighlight"
+        android:centerY="0.92"
+        android:angle="270" />
+    <stroke
+        android:width="2dp"
+        android:color="@color/colorBlackKeyStroke" />
+</shape>
